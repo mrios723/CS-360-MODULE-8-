@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Notifications"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allow SMS notifications to receive alerts when you reach your goal weight."
+        android:paddingTop="12dp" />
+
+    <Button
+        android:id="@+id/buttonRequestSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable SMS Notifications" />
+
+    <TextView
+        android:id="@+id/textSMSStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS permission status will appear here."
+        android:paddingTop="16dp" />
+
+</LinearLayout>
